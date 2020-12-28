@@ -25,6 +25,41 @@ function move(e) {
 
 gsap.from('.nav__logo, .nav__toggle', {opacity: 0, duration: 1, delay:1.2, y:10});
 gsap.from('.nav__item', {opacity: 0, duration: 1, delay: 1.3, y:30, stagger: 0.2});
-gsap.from('.home__title', {opacity:0, duration:1,delay:1.5,y:30})
-gsap.from('.home__description', {opacity:0, duration:1,delay:1.7,y:30})
-gsap.from('.home__button', {opacity:0, duration:1,delay:1.9,y:30})
+gsap.from('.home__title', {opacity:0, duration:1,delay:1.5,y:30});
+gsap.from('.home__description', {opacity:0, duration:1,delay:1.7,y:30});
+
+new Swiper('.swiper-container', {
+    // Optional parameter
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 10,
+      depth: 200,
+      modifier: 1,
+      slideShadows: true,
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+
+
