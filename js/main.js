@@ -23,6 +23,16 @@ function move(e) {
   });
 }
 
+const navLink = document.querySelectorAll(".nav__link");
+
+navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+function linkAction() {
+  navMenu.classList.remove("show");
+}
+
+// GSAP 
+
 gsap.from(".nav__logo, .nav__toggle", {
   opacity: 0,
   duration: 1,
@@ -65,6 +75,8 @@ gsap.from(".about__contact, .gallery__title", {
   delay: 1.7,
   y: 30
 });
+
+// SWIPER
 
 new Swiper(".swiper-container", {
   loop: true,
