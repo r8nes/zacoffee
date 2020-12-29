@@ -35,6 +35,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    color: white;
     font-family: var(--body-font);
     font-size: var(--main-font-size);
     font-weight: 500;
@@ -247,8 +248,9 @@ img {
 }
 
 .phone {
-    color: var(--second-color);
+    color: var(--second-color) !important;
 }
+
 /* ADDITIONS */
 
 .rounder {
