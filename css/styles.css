@@ -104,6 +104,7 @@ img {
         padding: 3.5rem 1.5rem 0;
         background: rgba(255, 11, 11, 0.562);
         backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         transition: .5s;
     }
 }
@@ -198,7 +199,6 @@ img {
 
 .about__info {
     margin-bottom: 3rem;
-    color: var(--second-color);
 }
 
 .about__info-title {
@@ -244,6 +244,7 @@ img {
 .about__contact {
     text-align: center;
     margin-bottom: 3rem;
+    color: var(--second-color);
 }
 
 /* ADDITIONS */
@@ -445,7 +446,7 @@ img {
         height: 460px;
     }
 
-    .home__img img {
+    .home__img img { 
         width: 604px;
     }
 
