@@ -250,7 +250,6 @@ img {
 .phone {
     color: var(--second-color) !important;
 }
-
 /* ADDITIONS */
 
 .rounder {
@@ -393,7 +392,7 @@ img {
         row-gap: 0;
         align-items: center;
         justify-content: center;
-        margin: 7rem auto 13rem;
+        margin: 8.5rem auto 13rem;
     }
 
     .home__img {
