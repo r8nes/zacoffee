@@ -244,9 +244,11 @@ img {
 .about__contact {
     text-align: center;
     margin-bottom: 3rem;
-    color: var(--second-color);
 }
 
+.phone {
+    color: var(--second-color);
+}
 /* ADDITIONS */
 
 .rounder {
