@@ -17,29 +17,32 @@
     <!-- HEADER PAGE -->
 
     <header class="m-header">
+
         <nav class="nav m-grid">
+
             <div>
                 <a href="#" class="nav__logo shade">ZACOFFEE</a>
             </div>
 
-            <div class="nav__toggle" id="nav-toggle">
+            <div class="nav__toggle shade" id="nav-toggle">
                 <i class="bx bx-menu"></i>
             </div>
 
-            <div class="nav__menu" id="nav-menu">
+            <div class="nav__menu shade" id="nav-menu">
+
                 <div class="nav__close" id="nav-close">
                     <i class="bx bx-x"></i>
                 </div>
-                <ul class="nav__list">
-                    <li class="nav__item shade"><a href="" class="nav__link">ДОМАШНЯЯ</a></li>
-                    <li class="nav__item shade"><a href="" class="nav__link">КЕЙТЕРИНГ</a></li>
-                    <li class="nav__item shade"><a href="" class="nav__link">ГАЛЕРЕЯ</a></li>
+
+                <ul class="nav__list shade">
+                    <li class="nav__item"><a href="" class="nav__link">ДОМАШНЯЯ</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">КЕЙТЕРИНГ</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">ГАЛЕРЕЯ</a></li>
                 </ul>
+
             </div>
 
         </nav>
-
-
 
     </header>
 
@@ -47,8 +50,10 @@
 
     <main class="m-main">
 
-        <section class="home">
+        <section class="home" id="home">
+
             <div class="home__container m-grid">
+
                 <div class="home__img">
                     <img src="img/zacoffee.png" data-speed="1" class="move" alt="">
                     <img src="img/Bean_1.png" data-speed="2.5" class="back move" alt="">
@@ -61,8 +66,10 @@
                 </div>
 
                 <div class="home__data">
+
                     <h1 class="home__title shade">ZACOFFEE <br> OFFICIAL PAGE</h1>
-                    <p class="home__description shade">
+                  
+                    <p class="home__description semi-shade">
                         ZaCoffee - это молодой семейный проект. <br>
                         Для нас очень важно создать <br>душевную атмосферу.
                         <br> Мы сами очень любим кофе
@@ -70,25 +77,32 @@
                         <br>
                         таким каким сами бы хотели его видеть.
                     </p>
+                
                 </div>
+           
             </div>
+
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
+           
             <h3 class="about__info-title shade">У нас есть кейтеринг</h3>
 
             <div class="about__container m-grid">
+                
                 <div class="player__container">
+                    
                     <div class="about__player">
                         <iframe class="player" height="225" src="https://www.youtube.com/embed/0pa1B5RJoJQ"
                             frameborder="0" allow="accelerometer;
                          autoplay; clipboard-write; encrypted-media; gyroscope; 
-                         picture-in-picture;" allowfullscreen>
+                         picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
 
                 </div>
-                <div class="about__info shade">
+
+                <div class="about__info">
 
                     <p class="about__info-subtitle shade"> Мы предоставим: </p>
 
@@ -99,10 +113,12 @@
                                 Собственную <br>стойку
                             </span>
                         </div>
+
                         <div class="time">
                             <span class="rounder"></span>
                             <span class="line"></span>
                         </div>
+
                         <div>
                             <span class="info-list__right">
                                 А также все нужные <br> расходники
@@ -161,19 +177,24 @@
                                 Классный <br>кофе
                             </span>
                         </div>
+
                         <div class="time">
                             <span class="rounder"></span>
                             <span class="line"></span>
                         </div>
+
                         <div>
                             <span class="info-list__right">
                                 Готовим напитки <br>на разном молоке
                             </span>
                         </div>
+
                     </div>
+
                 </div>
 
                 <div class="about__contact shade">
+
                     <div class="about__info-data">
                         <i class="bx bxl-instagram about__info-icon"></i>
                         <span>ZACOFFEE</span>
@@ -188,15 +209,20 @@
                         <i class="bx bx-envelope about__info-icon"></i>
                         <span>ZADUMALA@GMAIL.COM</span>
                     </div>
+
                 </div>
 
             </div>
         </section>
 
-        <section class="gallery">
+        <section class="gallery" id="gallery">
+
             <div class="gallery__container m-grid">
+
                 <h3 class="gallery__title shade">Галлерея</h3>
+
                 <div class="swiper-container">
+
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="img/slider/pic_1.jpg" alt=""></div>
                         <div class="swiper-slide"><img src="img/slider/pic_2.jpg" alt=""></div>
@@ -206,22 +232,31 @@
                         <div class="swiper-slide"><img src="img/slider/pic_6.jpg" alt=""></div>
                         <div class="swiper-slide"><img src="img/slider/pic_7.jpg" alt=""></div>
                     </div>
+
                     <div class="swiper-pagination"></div>
+
                 </div>
             </div>
+
             </div>
+
         </section>
+
     </main>
+
     <footer class="m-footer">
+
         <div class="footer-data">
-            <p class="footer-info">
+            <p class="footer-info semi-shade">
                 All rights reserved. 2020
             </p>
         </div>
+
     </footer>
+
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>

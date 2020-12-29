@@ -44,7 +44,22 @@ gsap.from(".home__title", {
   delay: 1.5,
   y: 30
 });
+
 gsap.from(".home__description", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.7,
+  y: 30
+});
+
+gsap.from(".about__info, .about__info-title", {
+  opacity: 0,
+  duration: 1,
+  delay: 2,
+  y: 30
+});
+
+gsap.from(".about__contact, .gallery__title", {
   opacity: 0,
   duration: 1,
   delay: 1.7,
